@@ -87,9 +87,15 @@ header #bg-photo {
   margin: 0;
   width: 100%;
   height: 80px;
-  background: #2D2D2D;
+  background: #EFEFEF;
   box-shadow: 0px 0px 10px #2d2d2d;
   z-index: 9999;
+}
+
+#navBar img {
+  margin-top: 15px;
+  width: 50px;
+  height: 50px;
 }
 
 
@@ -97,7 +103,7 @@ header #bg-photo {
 
 h1 {
   display: inline-block;
-  color: whitesmoke;
+  color: black;
   text-transform: uppercase;
   letter-spacing: 0.02em;
   text-transform: uppercase;
@@ -199,7 +205,7 @@ ul {
   display: block;
   width: 40px;
   height: 1px;
-  background: white;
+  background: black;
   -webkit-transition: all .5s;
   transition: all .5s;
   -webkit-transform-origin: left top;
