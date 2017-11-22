@@ -451,6 +451,7 @@ div img {
 }
 
 #skills ul {
+  margin-top: 30px;
   padding-top: 10%;
 }
 
@@ -539,7 +540,7 @@ div img {
 }
 
 #portfolio h1 {
-  padding: 25% 0 2% 0;
+  padding: 20% 0 2% 0;
   text-align: center;
   display: block;
   color: #5B5A60;
@@ -744,7 +745,7 @@ header#resume img {
   #skills ul {
     font-size: 1.2em;
     margin: 0 auto;
-    padding: 0 0 0 0;
+    padding: 30 0 0 0;
     text-align: center;
     width: 100%;
     display: block;
@@ -844,7 +845,7 @@ header#resume img {
 
 @media screen and (min-width: 480px) {
   #logo {
-    top: 37%;
+    top: 33%;
     width: 33%;
     margin: 0 33.5%;
   }
@@ -864,7 +865,7 @@ header#resume img {
     width: 30px;
   }
   #logo {
-    top: 33%;
+    top: 20px;
     width: 22%;
     margin: 0 39%;
   }
@@ -904,25 +905,6 @@ header#resume img {
     margin-left: 42.5%;
     margin-right: 37.5%;
     padding-bottom: 5%;
-  }
-  /*  Three column section for skills  */
-  #gear {
-    display: inline-block;
-    width: 33.333333%;
-    float: left;
-    padding-bottom: 10%;
-  }
-  #lightbulb {
-    display: inline-block;
-    width: 33.333333%;
-    float: left;
-    padding-bottom: 10%;
-  }
-  #tree {
-    display: inline-block;
-    width: 33.333333%;
-    float: right;
-    padding-bottom: 10%;
   }
   /*  Skills  */
   div#skill-left {
@@ -966,7 +948,7 @@ header#resume img {
     padding-bottom: 10%;
   }
   #portfolio h1 {
-    padding-top: 10%;
+    padding-top: 8%;
   }
   #portfolio p {
     padding-bottom: 10%;
@@ -991,7 +973,7 @@ header#resume img {
 
 @media screen and (min-width: 1500px) {
   #logo {
-    top: 35;
+    top: 33%;
     width: 20%;
     margin: 0 40%;
   }
