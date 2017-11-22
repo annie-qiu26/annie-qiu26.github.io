@@ -92,12 +92,6 @@ header #bg-photo {
   z-index: 9999;
 }
 
-#navBar img {
-  margin-top: 15px;
-  width: 50px;
-  height: 50px;
-}
-
 
 /* Name on Nav Bar */
 
@@ -493,42 +487,42 @@ div img {
 
 #one {
   height: .7em;
-  width: 75%;
+  width: 70%;
   background: #2D2D2D;
   display: block;
 }
 
 #two {
   height: .7em;
-  width: 90%;
+  width: 50%;
   background: #2D2D2D;
   display: block;
 }
 
 #three {
   height: .7em;
-  width: 70%;
+  width: 60%;
   background: #2D2D2D;
   display: block;
 }
 
 #four {
   height: .7em;
-  width: 87%;
+  width: 35%;
   background: #2D2D2D;
   display: block;
 }
 
 #five {
   height: .7em;
-  width: 90%;
+  width: 55%;
   background: #2D2D2D;
   display: block;
 }
 
 #six {
   height: .7em;
-  width: 80%;
+  width: 50%;
   background: #2D2D2D;
   display: block;
 }
@@ -557,14 +551,6 @@ div img {
   text-align: center;
   margin: 0;
   padding-bottom: 25%;
-}
-
-#port-link {
-  text-decoration: none;
-  color: rgba(26, 26, 26, .6);
-  font-size: 1em;
-  letter-spacing: 0;
-  text-transform: none;
 }
 
 
@@ -786,7 +772,7 @@ header#resume img {
     font-size: 2.2em;
   }
   div#portfolio p {
-    font-size: 1.3;
+    font-size: 1.3em;
   }
   /*  Contact Form  */
   div#contact {
@@ -893,7 +879,7 @@ header#resume img {
     padding-left: 5%;
   }
   .hideme {
-    opacity: 0;
+    opacity: 100;
   }
   /*  About  */
   #about h1 {
@@ -908,15 +894,16 @@ header#resume img {
     line-height: 1.7em;
     padding-bottom: 0;
   }
+
   div#skills p {
     font-size: .85em;
   }
   #about img {
-    padding-top: 5%;
-    width: 25%;
-    margin-left: 37.5%;
+    padding-top: 2%;
+    width: 15%;
+    margin-left: 42.5%;
     margin-right: 37.5%;
-    padding-bottom: 10%;
+    padding-bottom: 5%;
   }
   /*  Three column section for skills  */
   #gear {
