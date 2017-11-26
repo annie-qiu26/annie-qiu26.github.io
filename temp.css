@@ -539,7 +539,7 @@ div img {
 }
 
 #portfolio h1 {
-  padding: 25% 0 2% 0;
+  padding: 15% 0 2% 0;
   text-align: center;
   display: block;
   color: #5B5A60;
@@ -752,7 +752,7 @@ header#resume img {
   #skills ul {
     font-size: 1.2em;
     margin: 0 auto;
-    padding: 0 0 0 0;
+    padding: 30 0 0 0;
     text-align: center;
     width: 100%;
     display: block;
