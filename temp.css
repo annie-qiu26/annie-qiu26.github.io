@@ -155,7 +155,20 @@ nav ul li a:hover{
     width: auto;
 }
 #container {
-  height: 500px;
+  height: 70%;
+  width: 70%;
+}
+#bio, #social, #nameTitle {
+  display: none;
+}
+}
+@media screen and (max-width: 500px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+}
+#container {
+  height: 50%;
   width: 70%;
 }
 #bio, #social, #nameTitle {
