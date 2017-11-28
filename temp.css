@@ -56,8 +56,8 @@ nav ul li a:hover{
   color: white;
   text-align: center;
   text-decoration-color: white;
-  width: 30%;
-  height: 65%;
+  width: 40%;
+  height: 60%;
   background-color: #303030
 }
 .container h1{
@@ -111,7 +111,7 @@ nav ul li a:hover{
 {
 	margin: 0;
 	position: absolute;
-	bottom: 15%;
+	bottom: 20%;
 	left: 0;
 	display: flex;
 	width: 50%;
@@ -142,4 +142,7 @@ nav ul li a:hover{
   #container, #header, #content, #footer {
     float: none;
     width: auto;
+}
+#bio, #social-icon {
+  display: none;
 }
