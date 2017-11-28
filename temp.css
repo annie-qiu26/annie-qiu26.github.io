@@ -145,7 +145,7 @@ nav ul li a:hover{
   height: 70%;
   width: 70%;
 }
-#bio, #social, #name {
+#bio, #social, #nameTitle {
   display: none;
 }
 }
