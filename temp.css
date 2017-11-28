@@ -153,6 +153,7 @@ nav ul li a:hover{
   .container, #header, #content, #footer {
     float: none;
     width: auto;
+    height: auto;
 }
 #social, #nameTitle {
   display: none;
@@ -162,6 +163,7 @@ nav ul li a:hover{
   .container, #header, #content, #footer {
     float: none;
     width: auto;
+    height: auto;
 }
 #social, #nameTitle {
   display: none;
@@ -171,6 +173,7 @@ nav ul li a:hover{
   .container, #header, #content, #footer {
     float: none;
     width: auto;
+    height: auto;
 }
 #social, #nameTitle {
   display: none;
