@@ -43,7 +43,7 @@ nav ul li a {
 }
 
 nav ul li a:hover{
-  color: gold;
+  color: coral;
   font-weight: bold;
 }
 
@@ -137,4 +137,9 @@ nav ul li a:hover{
 }
 .social-icon li a:hover{
 	background: coral;
+}
+@media screen and (max-width: 1020px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
 }
