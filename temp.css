@@ -169,7 +169,7 @@ nav ul li a:hover{
 }
 #container {
   height: 400px;
-  width: 100px;
+  width: 100%;
 }
 #social, #nameTitle {
   display: none;
