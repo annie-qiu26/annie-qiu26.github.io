@@ -141,7 +141,7 @@ nav ul li a:hover{
     float: none;
     width: auto;
 }
-#container {
+.container {
   height: 300px;
   width: 500px;
 }
@@ -150,11 +150,11 @@ nav ul li a:hover{
 }
 }
 @media screen and (max-height: 500px) {
-  #container, #header, #content, #footer {
+  .container, #header, #content, #footer {
     float: none;
     width: auto;
 }
-#container {
+.container {
   height: 300px;
   width: 300px;
 }
@@ -163,11 +163,11 @@ nav ul li a:hover{
 }
 }
 @media screen and (max-width: 300px) {
-  #container, #header, #content, #footer {
+  .container, #header, #content, #footer {
     float: none;
     width: auto;
 }
-#container {
+.container {
   height: 400px;
   width: 100%;
 }
