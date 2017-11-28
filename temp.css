@@ -154,10 +154,6 @@ nav ul li a:hover{
     float: none;
     width: auto;
 }
-.container {
-  height: 300px;
-  width: 300px;
-}
 #social, #nameTitle {
   display: none;
 }
@@ -167,22 +163,14 @@ nav ul li a:hover{
     float: none;
     width: auto;
 }
-.container {
-  height: 400px;
-  width: 100%;
-}
 #social, #nameTitle {
   display: none;
 }
 }
 @media screen and (max-height: 300px) {
-  #container, #header, #content, #footer {
+  .container, #header, #content, #footer {
     float: none;
     width: auto;
-}
-.container {
-  height: 300px;
-  width: 200px;
 }
 #social, #nameTitle {
   display: none;
