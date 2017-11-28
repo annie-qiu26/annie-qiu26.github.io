@@ -152,10 +152,10 @@ nav ul li a:hover{
 	display: flex;
 	width: 50%;
 	margin-left: 22%;
-  margin-top: 15%;
+  margin-top: 25%;
 	box-sizing: border-box;
 }
-#bio, {
+#bio, #social {
   display: none;
 }
 }
