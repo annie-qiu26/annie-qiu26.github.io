@@ -138,16 +138,13 @@ nav ul li a:hover{
 	background: coral;
 }
 @media screen and (max-width: 1020px) {
-#header, #content, #footer {
+.container,#header, #content, #footer {
     float: none;
     width: auto;
     height: auto;
 }
-.container {
-  width: 500px;
-  height: 500px;
-}
-#profilePic, #social, #nameTitle {
+
+#social, #nameTitle {
   display: none;
 }
 }
