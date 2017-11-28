@@ -56,7 +56,7 @@ nav ul li a:hover{
   color: white;
   text-align: center;
   text-decoration-color: white;
-  width: 40%;
+  width: 600px;
   height: 450px;
   background-color: #303030
 }
@@ -142,8 +142,8 @@ nav ul li a:hover{
     width: auto;
 }
 #container {
-  height: 70%;
-  width: 90%;
+  height: 300px;
+  width: 500px;
 }
 #social, #nameTitle {
   display: none;
@@ -155,23 +155,10 @@ nav ul li a:hover{
     width: auto;
 }
 #container {
-  height: 70%;
-  width: 50%;
+  height: 300px;
+  width: 300px;
 }
 #social, #nameTitle {
-  display: none;
-}
-}
-@media screen and (max-width: 300px) {
-  #container, #header, #content, #footer {
-    float: none;
-    width: auto;
-}
-#container {
-  height: 50%;
-  width: 70%;
-}
-#bio, #social, #nameTitle {
   display: none;
 }
 }
