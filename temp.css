@@ -137,13 +137,10 @@ nav ul li a:hover{
 	background: coral;
 }
 @media screen and (max-width: 1020px) {
-  #container, #header, #content, #footer {
+.container, #header, #content, #footer {
     float: none;
     width: auto;
-}
-.container {
-  height: 300px;
-  width: 500px;
+    height: auto;
 }
 #social, #nameTitle {
   display: none;
