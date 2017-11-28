@@ -153,6 +153,9 @@ nav ul li a:hover{
     width: auto;
     height: auto;
 }
+.container {
+  height: inherit*20%;
+}
 #social, #nameTitle {
   display: none;
 }
