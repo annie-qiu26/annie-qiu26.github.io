@@ -143,6 +143,10 @@ nav ul li a:hover{
     width: auto;
     height: auto;
 }
+.container: {
+  width: 500px;
+  height: 500px;
+}
 #profilePic, #social, #nameTitle {
   display: none;
 }
@@ -152,9 +156,6 @@ nav ul li a:hover{
     float: none;
     width: auto;
     height: auto;
-}
-.container {
-  height: inherit*20%;
 }
 #profilePic, #social, #nameTitle {
   display: none;
