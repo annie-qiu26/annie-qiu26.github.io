@@ -110,17 +110,15 @@ nav ul li a:hover{
 .social-icon
 {
 	margin: 0;
-	position: absolute;
-	bottom: 20%;
 	left: 0;
 	display: flex;
 	width: 50%;
-  margin-left: 38%;
-	padding: 20px 10px 10px 20px;
+	margin-left: 22%;
+  margin-top: 5%;
 	box-sizing: border-box;
 }
 .social-icon li{
-	width: 10%;
+	width: 20%;
 	text-align: center;
 	list-style: none;
 }
