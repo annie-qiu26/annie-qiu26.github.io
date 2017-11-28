@@ -143,7 +143,7 @@ nav ul li a:hover{
 }
 #container {
   height: 70%;
-  width: 70%;
+  width: 90%;
 }
 #bio, #social, #nameTitle {
   display: none;
@@ -162,7 +162,7 @@ nav ul li a:hover{
   display: none;
 }
 }
-@media screen and (max-width: 500px) {
+@media screen and (max-width: 300px) {
   #container, #header, #content, #footer {
     float: none;
     width: auto;
