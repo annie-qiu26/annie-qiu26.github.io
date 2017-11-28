@@ -180,7 +180,7 @@ nav ul li a:hover{
     float: none;
     width: auto;
 }
-#container {
+.container {
   height: 300px;
   width: 200px;
 }
