@@ -149,3 +149,16 @@ nav ul li a:hover{
   display: none;
 }
 }
+@media screen and (max-height: 500px) {
+  #container, #header, #content, #footer {
+    float: none;
+    width: auto;
+}
+#container {
+  height: 500px;
+  width: 70%;
+}
+#bio, #social, #nameTitle {
+  display: none;
+}
+}
