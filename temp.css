@@ -143,19 +143,9 @@ nav ul li a:hover{
 }
 #container {
   height: 70%;
-  width: 50%;
+  width: 70%;
 }
-.social-icon
-{
-	margin: 0;
-	left: 0;
-	display: flex;
-	width: 50%;
-	margin-left: 22%;
-  margin-top: 25%;
-	box-sizing: border-box;
-}
-#bio, #social {
+#bio, #social, #name {
   display: none;
 }
 }
