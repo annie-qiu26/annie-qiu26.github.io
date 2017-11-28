@@ -10,148 +10,31 @@
   <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5">
   <link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
   <link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
-<meta name="theme-color" content="#2f0404">
+  <meta name="theme-color" content="#2f0404">
+  <meta name = "viewport" content = "width-device-width, initial-scale=1.0">
+  <link href = "https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel = "stylesheet">
 </head>
-
-  <!--  Navigation  -->
-  <div id="navBar">
-    <h1> Annie Qiu </h1>
-    <input type="checkbox" class="check" id="checked">
-    <label class="menu-btn" for="checked">
-      <span class="bar top"></span>
-      <span class="bar middle"></span>
-      <span class="bar bottom"></span>
-      <span class="menu-btn__text"></span>
-    </label>
-    <label class="close-menu" for="checked"></label>
-    <nav class="drawer-menu">
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#about-me">About</a></li>
-        <li><a href="#portfolio">Portfolio</a></li>
-        <!--<li><a href="#">Resume</a></li>-->
-        <!--<li><a href="#contact-me">Contact</a></li>-->
-        <!--<li><a href="#">Blog</a></li>-->
+<body>
+  <header>
+      <nav>
+        <ul id = "nav">
+          <li> <a class = "homered" href = "#">ANNIE QIU</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class = "container">
+      <img src = "AQ.jpg">
+      <h2 id = "name"> Annie Qiu </h2>
+      <h4 id = "about"> Freshman, Computer Science </h4>
+      <hr width = 80%>
+      <h4 id = "bio"> <i> I am a student at University of Illinois Urbana-Champaign, studying computer science. I'm also planning to minor in mathematics. Besides programming-related hobbies, I try to balance my time among designing, playing the ukulele, taking photos, hiking, and playing tennis. </i> </h4>
+      <h2> <u> Social Media </u> </h2>
+      <ul class = "social-icon">
+        <li><a href = "#"><i class = "fa fa-facebook" aria-hidden="true"></i></a></li>
+        <li><a href = "#"><i class = "fa fa-twitter" aria-hidden="true"></i></a></li>
+        <li><a href = "#"><i class = "fa fa-google-plus" aria-hidden="true"></i></a></li>
+        <li><a href = "#"><i class = "fa fa-linkedin" aria-hidden="true"></i></a></li>
+        <li><a href = "#"><i class = "fa fa-instagram" aria-hidden="true"></i></a></li>
       </ul>
-    </nav>
-  </div>
-
-
-  <!--  Header  -->
-  <header id="front">
-    <img id="logo" src="name.jpg" alt="Logo" />
-    <img id="bg-photo" src="city.jpg" alt="Cover Photo" />
-  </header>
-
-  <!--  About Section   -->
-
-  <div id="about">
-
-    <a name="about-me"></a>
-    <h1 class="hideme">About</h1>
-    <p class="hideme" id="line">_____</p>
-    <p class="hideme">I am a student at University of Illinois Urbana-Champaign, studying computer science. I'm also planning to minor in mathematics. Besides programming-related hobbies, I try to balance my time among designing, playing the ukulele, taking photos, hiking, and playing tennis.</p>
-
-    <img class = "rotateimg" src="profile-pic.JPG" alt="Profile Picture" />
-
-  </div>
-
-  <div id="skills">
-
-    <h1 class="hideme">Skills</h1>
-    <p class="hideme" id="line">_____</p>
-    <ul class="hideme">
-
-      <div id="skill-left">
-
-        <li>Java</li>
-        <div class="box">
-          <div id="one"></div>
-        </div>
-        <li>HTML/CSS</li>
-        <div class="box">
-          <div id="two"></div>
-        </div>
-        <li>Python</li>
-        <div class="box">
-          <div id="three"></div>
-        </div>
-
-      </div>
-
-      <div id="skill-right">
-
-        <li>Illustrator</li>
-        <div class="box">
-          <div id="four"></div>
-        </div>
-        <li>Design</li>
-        <div class="box">
-          <div id="five"></div>
-        </div>
-        <li>Photography</li>
-        <div class="box">
-          <div id="six"></div>
-    </ul>
     </div>
-
-    </div>
-
-    <div id="portfolio">
-
-      <h1 class="hideme">Portfolio</h1>
-      <p class="hideme" id="line">_____</p>
-      <p class="hideme">COMING SOON!</h1>
-
-    </div>
-
-<!-- Add later
-    <div id="contact">
-
-      <a name="contact-me"></a>
-      <div id="con-left">
-        <h1 class="hideme">Let's Work Together</h1>
-        <p class="hideme">Feel free to reach out to me if you have any questions or comments about the services I offer.</p>
-
-        <h3 class="hideme">Contact Information</h3>
-        <p class="contactIn" class="hideme"></p>
-        <p class="contactIn" class="hideme"></p>
-        <p class="contactIn" class="hideme"></p>
-      </div>
-
-
-      <form action="" method="POST">
-
-        <div class="hideme" id="name">
-          <label for="name">*Name</label>
-          <input type="text" name="name" placeholder="">
-        </div>
-
-        <div class="hideme" id="email">
-          <label for="_replyto">*Email Address</label>
-          <input type="email" name="_replyto" placeholder="">
-        </div>
-
-        <div class="hideme" id="message">
-          <label for="message">*Your Message</label>
-          <textarea name="message" id="" cols="30" rows="10"></textarea>
-        </div>
-
-        <div id="submit">
-          <input type="submit" value="SEND">
-        </div>
-    -->
-
-        <!--  Hidden Field  -->
-        <input type="text" name="_gotcha" style="display:none" />
-        <input type="hidden" name="_next" value="http://annieqiu.com" />
-
-      </form>
-
-    </div>
-
-    <div id="footer-above"></div>
-    <a id="to-top" href="#">
-      <div id="scroll-up"></div>
-    </a>
-    <footer>&copy Annie Qiu 2017</footer>
+  </body>
