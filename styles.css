@@ -26,12 +26,15 @@ body {
   width: 100%;
   height: 100%;
   cursor: pointer;
+  -webkit-transform-style: preserve-3d;
   transform-style: preserve-3d;
   transform-origin: center right;
+  -webkit-transition: tranform 1s;
   transition: transform 1s;
 }
 
 .card.is-flipped {
+  -webkit-transform: translateX(-100%) rotateY(-180deg);
   transform: translateX(-100%) rotateY(-180deg);
 }
 
@@ -48,6 +51,7 @@ body {
   height: 350px;
   border-radius: 250px;
   background: #555555;
+  -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
 }
 
