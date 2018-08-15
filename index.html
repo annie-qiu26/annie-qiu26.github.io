@@ -9,7 +9,7 @@
 <body>
   <div class="scene scene--card">
     <div class="card">
-      <div class="card__face card__face--front">18</div>
+      <div class="card__face card__face--front" id = "clicks"></div>
       <div class="card__face card__face--back">
         <h3>About me</h3>
         <hr>
@@ -27,7 +27,8 @@
     <li><a href = "https://www.instagram.com/annie.qiu26/" target="_blank" ><i class = "fa fa-instagram" aria-hidden="true"></i></a></li>
   </ul>
 </body>
-<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase-database.js"></script>
 <script>
   // Initialize Firebase
   var config = {
