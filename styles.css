@@ -64,7 +64,12 @@ body {
 }
 
 hr {
-  width: 200px;
+  color: #EEE;
+  background-color: #EEE;
+  height: 1.5px;  
+  border: 0;
+  width: 60%;
+  margin: 0;
 }
 
 h1, h3, p {
