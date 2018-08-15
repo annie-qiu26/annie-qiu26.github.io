@@ -107,6 +107,9 @@ p {
 	background: coral;
 }
 
-@media only screen and (max-width: 768px) {
-
+@supports(padding: max(0px)) {
+  .post {
+      padding-left: max(15px, env(safe-area-inset-left));
+      padding-right: max(15px, env(safe-area-inset-right));
+  }
 }
