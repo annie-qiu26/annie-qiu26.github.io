@@ -81,7 +81,7 @@ h1, h3, p {
 }
 
 h1 {
-  padding-top: 20px;
+  padding-top: 15px;
 }
 
 p {
@@ -135,6 +135,10 @@ and (-webkit-device-pixel-ratio : 3) {
   .card__face--back {
     font-size: 12px;
   }
+
+  h1 {
+    padding-top: 10px;
+  }
 }
 
 @media only screen 
@@ -154,6 +158,10 @@ and (max-device-width : 667px) {
   .card__face--back {
     font-size: 12px;
   }
+
+  h1 {
+    padding-top: 10px;
+  }
 }
 
 @media only screen 
@@ -172,5 +180,9 @@ and (max-device-width : 736px) {
   
   .card__face--back {
     font-size: 12px;
+  }
+
+  h1 {
+    padding-top: 10px;
   }
 }
